@@ -1,0 +1,29 @@
+.contentContainer{
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.contentContainer>div:first-child{
+	display: flex;
+	align-items: flex-start;
+}
+
+.contentContainer>div>h1, .contentContainer>div>div{
+	display: inline-flex;
+}
+
+.contentContainer>div:last-child{
+	font-size: 1vw;
+	display: flex;
+	align-items: flex-start;
+}
+
+.bg-my-green{
+	background-color: #53FF00;
+}
+
+@media only screen and (max-width: 1024px){
+	.contentContainer>div:last-child{
+		font-size: 3vw;
+	}
+}

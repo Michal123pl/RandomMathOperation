@@ -1,0 +1,16 @@
+.container{
+	background-image: linear-gradient(to left bottom, #d3d5fb, #bec1f4, #a9acee, #9599e6, #8085df);
+	width: 60vw;
+	margin: auto auto 4vw auto;
+	display: flex;
+	flex-flow: column wrap;
+	padding-bottom: 2vw;
+	box-shadow: -4px 15px 25px rgba(0,0,0,0.3);
+}
+
+@media only screen and (max-width: 1024px){
+	.container{
+		width: 90vw;
+		padding-bottom: 6vw;
+	}
+}

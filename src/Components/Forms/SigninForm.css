@@ -1,0 +1,88 @@
+.Form{
+	font-size: 2.3vw;
+	background-image: linear-gradient(to left bottom, #ffffe7 2%, #feeec9 35%, #fee6bc 50%, #fedeae 75%, #ffd6a2 90%);
+	margin: 0 auto 10vw auto;
+	width: 50vw;
+	display: flex;
+	flex-flow: column wrap;
+	box-shadow: -4px 15px 25px rgba(0,0,0,0.3);
+}
+
+.FormInput{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.FormInput>input{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.Form>div:first-child{
+	margin-top: 5%;
+}
+
+label{
+	margin: 2% 0 0 3%;
+	color: black;
+	float: left;
+}
+
+form>div:last-child{
+	margin: 15% auto 5% auto;
+	padding: 0 2vw;
+}
+
+.FormButton{
+	margin: 8% auto 0 auto;
+}
+
+.SubmitButton{
+	background: transparent;
+	padding: 12% 20% 12% 20%;
+	border: none;
+	border-radius: 14px;
+	box-shadow: 0px 4px 16px rgba(0,0,0, .4);
+}
+
+.my-green{
+	color: #53FF00;
+}
+
+.my-red{
+	color: #FF0032;
+}
+
+@media only screen and (max-width: 1024px){
+	.Form{
+		font-size: 6vw;
+		width: 80vw;
+	}
+
+	.Form>div:first-child{
+		margin-top: 10%;
+	}
+
+	label{
+		margin: 4% 0 0 6%;
+	}
+
+	form>div:last-child{
+		margin: 20% auto 10% auto;
+	}
+
+	.FormButton{
+		margin: 12% auto 0 auto;
+	}
+
+	.SubmitButton{
+		background: transparent;
+		padding: 12% 20% 12% 20%;
+		border: none;
+		border-radius: 14px;
+		box-shadow: 0px 4px 16px rgba(0,0,0, .4);
+	}
+}

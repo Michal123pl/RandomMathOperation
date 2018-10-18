@@ -1,0 +1,47 @@
+.buttonMain{
+	font-size: 2vw;
+	background: #FFDE81;
+	border: none;
+	border-radius: 10px;
+	margin: .5vw;
+	padding: .5vw 1.4vw;
+	box-shadow: 0px 4px 16px rgba(0,0,0, .4);
+}
+@keyframes buttonAnimation{
+	0% {transform: translate(0px, 0px); box-shadow: 0px 4px 16px rgba(0,0,0, .4)}
+	15% {transform: translate(0px, -12px); box-shadow: 0px 12px 40px rgba(0,0,0, .5)}
+	30% {transform: translate(0px, 2px); box-shadow: 0px 4px 16px rgba(0,0,0, .4)}
+	45% {transform: translate(0px, -8px); box-shadow: 0px 8px 30px rgba(0,0,0, .5)}
+	60% {transform: translate(0px, 0px); box-shadow: 0px 4px 16px rgba(0,0,0, .4)}
+	75% {transform: translate(0px, -5px); box-shadow: 0px 6px 24px rgba(0,0,0, .5)}
+	100% {transform: translate(0px, 0px); box-shadow: 0px 4px 16px rgba(0,0,0, .4)}
+}
+
+.hoverEffect {
+	transition: all 0.2s linear;
+}
+
+.hoverEffect:hover{
+	animation: buttonAnimation .8s;
+	background: #FDC527;
+	
+}
+
+@media only screen and (max-width: 1024px){
+	.buttonMain{
+		font-size: 4vw;
+		border-radius: 15px;
+		margin: 2.5vw;
+		padding: 1.5vw 2.8vw;
+		box-shadow: 0px 4px 16px rgba(0,0,0, .4);
+	}
+
+	.hoverEffect {
+		transition: none;
+	}
+
+	.hoverEffect:hover{
+		transform: none;
+		box-shadow: 0px 4px 16px rgba(0,0,0, .4);
+	}
+}

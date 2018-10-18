@@ -1,0 +1,36 @@
+body{
+	background-image: radial-gradient(circle, #fefeff, #edf0fb, #d7e4f8, #bdd8f3, #9fceed);
+	background-attachment: fixed;
+	background-position: center;
+	font-size: 1.5vw;
+}
+input{
+	outline: none;
+}
+
+.cursor-p{
+	cursor: pointer;
+}
+
+.bg-near-green{
+	background-color: #67EB12;
+}
+
+.ma-a{
+	margin: auto;
+}
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+@media only screen and (max-width: 1024px){
+	body{
+		font-size: 3.5vw;
+	}
+}
