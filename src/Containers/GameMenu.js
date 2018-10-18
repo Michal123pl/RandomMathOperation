@@ -31,7 +31,7 @@ class GameMenu extends Component {
 	}
 
 	 updateScore = (newScore) => {
-	  	fetch('https://blooming-bastion-57407.herokuapp.com/score', {
+	  	fetch('https://random-math-operation.herokuapp.com/score', {
 	  		method: 'put',
 	  		headers: {'Content-Type': 'application/json'},
 	  		body: JSON.stringify({

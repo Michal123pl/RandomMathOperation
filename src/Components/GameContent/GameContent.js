@@ -195,34 +195,3 @@ class GameContent extends Component {
 }
 
 export default GameContent;
-
-/*
-<div>
-					<Button 
-					id={'menu'}
-					valueName={'Menu'}
-					action={this.props.onMenu}/>
-				</div>
-				<h1 className=''>{this.props.gameModeName}</h1>
-				<div>
-					<h1 className=''>{this.state.num1} {this.props.gameMode} {this.state.num2} = </h1>
-					{ this.state.feedback === 'Correct answer!'
-					? <h1>{this.state.userResp}</h1>
-					: <TextField textChange={this.onTextChange}/>
-				}
-				</div>
-				<CheckButton 
-				buttonRoute={this.state.buttonRoute}
-				next={this.onNext}
-				check={this.onCheck}/>
-				<Result 
-				feedback={this.state.feedback}
-				score={this.state.user.score}
-				/>
-				{ this.state.gameModeName === 'Division'
-					? (<div>
-						<p>* Enter result with 1 number after comma precision</p>
-					</div>)
-					:(<div></div>)
-				}
-*/

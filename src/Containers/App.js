@@ -37,7 +37,7 @@ class App extends Component {
   }
 
   loadScore = () => {
-    fetch(`https://blooming-bastion-57407.herokuapp.com/profile/${this.state.user.id}`, {
+    fetch(`https://random-math-operation.herokuapp.com/profile/${this.state.user.id}`, {
       method: 'get',
       headers: {'Content-Type': 'application/json'}
       })

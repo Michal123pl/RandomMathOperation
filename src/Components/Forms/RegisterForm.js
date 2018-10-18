@@ -43,7 +43,7 @@ class RegisterForm extends React.Component {
 	}
 
 	registerUser = () => {
-		fetch('https://blooming-bastion-57407.herokuapp.com/register', {
+		fetch('https://random-math-operation.herokuapp.com/register', {
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
